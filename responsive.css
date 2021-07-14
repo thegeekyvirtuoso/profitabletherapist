@@ -1,0 +1,130 @@
+/* ----------------------------------------------------------------
+	Default CSS
+-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Responsive CSS
+-----------------------------------------------------------------*/
+
+/*Menu Bar*/
+
+@media (min-width: 976px) and (max-width: 1073px) {
+    #ed-65674975{
+        flex-basis: 45% !important;
+    }
+
+    .ed-element.preset-menu-v2-border>.inner {
+        padding: 6px 6px 6px 6px;
+    }
+
+    #ed-65677169, #ed-65677196{
+        margin: 0 5px !important;
+    }
+    .ed-element.preset-menu-v2-border .ed-menu>ul>li:not(:first-child) {
+        margin: 0 0 0 7px !important;
+    }
+    .ed-element.preset-menu-v2-border .ed-menu>ul>li>a {
+        padding: 1rem 10px 1rem 10px !important;
+    }
+}
+
+@media (min-width: 603px) and (max-width: 975px) {
+    #ed-65674978 {
+        flex-grow: 0 !important;
+    }
+    #ed-65674972{
+        flex-grow: 1 !important;
+    }
+}
+
+@media (min-width: 532px) and (max-width: 602px) {
+    #ed-65674978 {
+        flex-grow: 0 !important;
+    }
+    #ed-65674972{
+        flex-grow: 1 !important;
+    }
+
+    #ed-65677169, #ed-65677196{
+        margin: 0 5px !important;
+    }
+
+    #ed-65677169 a.button, #ed-65677196 a.button{
+        padding: 7px 15px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 531px) {
+    #ed-65674978 {
+        flex-grow: 0 !important;
+        order: 1;
+    }
+    #ed-65674972{
+        flex-grow: 1 !important;
+        order: 0;
+    }
+
+    #ed-65677169{
+        order: 2;
+        flex: 0 0 40% !important;
+    }
+    #ed-65677196{
+        order: 3;
+    }
+
+    #ed-65674969 > .inner {
+        justify-content: center !important;
+    }
+
+    #ed-65677169, #ed-65677196{
+        margin: 20px 0 !important;
+    }
+
+    #ed-65677169 a.button, #ed-65677196 a.button{
+        padding: 7px 15px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 329px) {
+    #ed-65674972 img {
+        width: 120px !important;
+    }
+
+    #ed-65674978 {
+        flex-grow: 0 !important;
+        order: 1;
+    }
+    #ed-65674972{
+        flex-grow: 1 !important;
+        order: 0;
+    }
+
+    #ed-65677169{
+        order: 2;
+        flex: 0 0 40% !important;
+    }
+    #ed-65677196{
+        order: 3;
+    }
+
+    #ed-65674969 > .inner {
+        justify-content: center !important;
+    }
+
+    #ed-65677169, #ed-65677196{
+        margin: 20px 0 !important;
+    }
+
+    #ed-65677169 a.button, #ed-65677196 a.button{
+        padding: 7px 15px !important;
+        font-size: 16px !important;
+    }
+}
