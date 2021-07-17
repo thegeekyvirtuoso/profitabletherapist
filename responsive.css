@@ -119,17 +119,30 @@
 }
 
 /*Buttons*/
-@media (min-width: 853px) and (max-width: 1100px){
+@media (min-width: 853px) and (max-width: 1123px){
     .btn-hm-1, .btn-hm-1-1 {
         font-size: 14px;
         padding: 15px 20px;
     }
 }
 
-@media (min-width: 860px) and (max-width: 852px){
+@media (min-width: 773px) and (max-width: 852px){
     .btn-hm-1, .btn-hm-1-1 {
         font-size: 14px;
-        padding: 15px 20px;
+        padding: 12px 10px;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 772px){
+    .btn-hm-1, .btn-hm-1-1 {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+}
+@media (min-width: 736px) and (max-width: 735px){
+    .btn-hm-1, .btn-hm-1-1 {
+        font-size: 14px;
+        padding: 12px 10px;
     }
 }
 
