@@ -215,3 +215,11 @@
         margin-top: 60px;
     }
 }
+
+/*Footer*/
+@media (min-width: 280px) and (max-width: 820px){
+    .right-menu a {
+        float: left;
+        margin-left: 0;
+    }
+}
