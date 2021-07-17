@@ -196,6 +196,18 @@
     }
 }
 
+@media (min-width: 280px) and (max-width: 575px){
+    #ed-65701879 {
+        margin-bottom: 5px;
+    }
+    #ed-65701885 {
+        margin-top: 5px;
+    }
+    .btn-hm-1, .btn-hm-1-1 {
+        padding: 12px 17px;
+    }
+}
+
 /*Homepage*/
 @media (min-width: 280px) and (max-width: 575px){
     #ed-65785399, #ed-65785408, #ed-65785411{
